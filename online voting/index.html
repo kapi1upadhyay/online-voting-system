@@ -1,0 +1,33 @@
+
+
+<html>
+    <head>
+        <title>Online Voting System</title> 
+        <link rel="stylesheet" href="css/stylesheet.css">   
+    </head>
+
+    <body style="background-image:url(https://st.depositphotos.com/1021722/3442/i/600/depositphotos_34426111-stock-photo-art-peaceful-background-mist-over.jpg);
+    "> 
+        <center>
+        <div id="headerSection">
+            <h1>Online Voting System</h1>
+        </div>
+        <hr>
+
+        <div id="bodySection">
+            <h3 style="font-family: Baloo Thambi 2,cursive">Login</h3>
+            <form action="api/login.php" method="post" >
+                <input type="number" name="mobile" placeholder="Enter mobile"><br><br>
+                <input type="password" name="password" placeholder="Enter password"><br><br>
+                <select id="dropbox" name="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Group</option>
+                </select ><br><br>
+                <button type="submit" id="Loginbtn">Login</button><br><br>
+                New user?<a href="routes/register.html">Register here</a>
+            </form>
+        </div>
+    </center>
+    </body>
+</html>
+

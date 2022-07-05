@@ -1,0 +1,28 @@
+body{
+    background-color:#b8e994;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAH11cLxe-o8HXvN_eP-X04xIC3YP8WkVnMw&usqp=CAU)
+#headerSection{ */
+    padding: 10px;
+
+}
+#headerSection h1{
+    font-family: 'Baloo Thambi 2', monospace;
+   
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    width:10%;
+}
+#Loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #82ccdd;
+    color:black;
+    font-size: 15px;
+}
